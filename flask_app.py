@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/home')
 def home():
-    return ('Welcome !')
+    return render_template('home.html')
 
 @app.route('/first')
 def first():
