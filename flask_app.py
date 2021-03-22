@@ -5,8 +5,7 @@ app = Flask(__name__)
   <head>  
   </head>
   <style>
-  body {background-color: #3CB371;}
-  p    {
+  body {background-color: #3CB371;
   font-family: Comic Sans MS;
   font-size: 80%;}
   </style>
