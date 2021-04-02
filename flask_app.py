@@ -13,5 +13,9 @@ def first():
 @app.route('/login')
 def login():
     return render_template('login.html')
+
+@app.route('/profile')
+def profile():
+    return render_template('profile.html')
     
         
